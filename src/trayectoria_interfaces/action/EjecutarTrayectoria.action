@@ -1,0 +1,12 @@
+# --- GOAL ---
+# lista de ángulos objetivo
+float32[] angulos
+---
+# --- RESULT ---
+# completado y tiempo_total
+bool completado
+float32 tiempo_total
+---
+# --- FEEDBACK ---
+# porcentaje de completitud
+float32 porcentaje_completitud

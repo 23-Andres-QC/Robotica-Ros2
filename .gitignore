@@ -1,0 +1,33 @@
+# Ignorar directorios de compilación
+build/
+install/
+log/
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Ignorar archivos de ROS
+.colcon/
+*.ament_cmake_cache
+
+# Ignorar archivos temporales
+*.tmp
+*.bak
+.ROS_VERSION
